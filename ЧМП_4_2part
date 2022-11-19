@@ -1,0 +1,5 @@
+import numpy as np
+matr = np.matrix([[1, 0, 0, 0], [0, 2, 0,0], [0, 0, 3,0],[0,0,0,4]])
+c = np.linalg.matrix_power(matr,2)
+
+print(c)
